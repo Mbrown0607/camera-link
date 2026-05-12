@@ -41,6 +41,12 @@
                 android:name=".TailscalePingService"
                 android:enabled="true"
                 android:exported="false" />
+
+        <service
+                android:name=".tracking.TargetTrackingService"
+                android:enabled="true"
+                android:exported="false"
+                android:foregroundServiceType="camera" />
     </application>
 
 </manifest>
